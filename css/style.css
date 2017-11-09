@@ -4,5 +4,27 @@
   padding: 0;
 }
 html{
-  background: tan;
+  font-size: 10px;
+}
+
+ .main-nav{
+   display: flex;
+   justify-content: space-between;
+   background: pink;
+   padding: 1rem 0.5rem;
+ }
+
+.main-nav-list{
+  display: flex;
+  list-style: none;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.main-nav-list li{
+  margin: 0 10px;
 }
